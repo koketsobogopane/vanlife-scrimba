@@ -1,8 +1,10 @@
+/* eslint-disable react/no-unescaped-entities */
 import './App.css'
 import Navbar from './components/Navbar'
 import BodyContent from './components/BodyContent'
+import About from './components/About'
 import Footer from "./components/Footer"
-import { Link } from "react-router-dom"
+import { Route, Routes } from "react-router-dom"
 
 function App() {
   
@@ -10,7 +12,10 @@ function App() {
   return (
     <>
     <Navbar/>
-    <BodyContent />
+    <Routes>
+    <Route path='/' element={<BodyContent />} />
+    <Route path='/about' element={<About />} />
+    </Routes>
     <Footer />
     </>
   )

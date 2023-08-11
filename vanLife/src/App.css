@@ -87,3 +87,52 @@ footer {
   font-size: 14px;
   height: 35.5vh;
 }
+
+/* About */
+
+.about {
+  display: flex;
+  flex-direction: column;
+}
+
+.about_description {
+  padding: 1rem 1.5rem 2.5rem 1.5rem;
+}
+
+.about_description_p2 {
+  margin-bottom: 4rem;
+}
+.about_description_p1 {
+  margin-bottom: 2rem;
+  margin-top: 2rem;
+}
+
+.about_box {
+  display: flex;
+  flex-direction: column;
+  padding: 2.5rem;
+  background-color: #FFCC8D;
+  border-radius: 5px;
+
+}
+
+.about_box_button {
+
+  display: inline-flex;
+  padding: 12px 22px 13px 22px;
+  color: #fff;
+  background-color: #161616;
+  border-radius: 10px;
+  width: 12rem;
+  align-items: center;
+  justify-content: center;
+  font-size: 1rem;
+}
+
+.about_box_line1 {
+  margin: 0;
+}
+.about_box_line2 {
+  margin-top: .5px;
+  margin-bottom: 2rem
+}
