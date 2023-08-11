@@ -1,6 +1,7 @@
 import './App.css'
 import Navbar from './components/Navbar'
 import BodyContent from './components/BodyContent'
+import Footer from "./components/Footer"
 import { Link } from "react-router-dom"
 
 function App() {
@@ -10,10 +11,13 @@ function App() {
     <>
     <Navbar/>
     <BodyContent />
+    <Footer />
     </>
   )
 }
 
 export default App
+
+
 
 

@@ -71,5 +71,19 @@ main > div {
   padding-top: 0.5rem;
   padding-bottom: 0.5rem;
   margin-bottom: 4rem;
+  font-size: 15.946px;
   
+}
+
+/* footer */
+
+footer {
+  
+  background-color:  #252525;
+  color: #AAA;
+  display: flex;
+  align-items: center ;
+  justify-content: center;
+  font-size: 14px;
+  height: 35.5vh;
 }
