@@ -1,12 +1,28 @@
-
 import './App.css'
+import { Link } from "react-router-dom"
 
 function App() {
   
 
   return (
-    <h1>Hello world</h1>
+    <>
+    <Navbar/>
+    </>
   )
 }
 
 export default App
+
+
+
+const Navbar = () => {
+  return (
+    <nav className="navbar">
+      <h2>#VANLIFE</h2>
+      <ul >
+        <li><a href="/Vans">Vans</a></li>
+        <li><a href="/about">About</a></li>
+      </ul>
+    </nav>
+  )
+}

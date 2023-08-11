@@ -6,4 +6,31 @@
 body {
   margin: 0;
   padding: 0;
+  font-family: Inter;
+
+}
+
+/* navbar */
+
+.navbar{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding:  36.001px 25.819px 34.623px 26px;
+}
+
+nav > ul {
+  list-style: none ;
+  display: flex;
+  gap: 2rem;
+}
+
+nav > h2 {
+  cursor: pointer;
+  font-weight: 900;
+}
+
+nav > ul > li > a {
+  text-decoration: none;
+  color: #4D4D4D;
 }
