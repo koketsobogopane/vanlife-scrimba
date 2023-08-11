@@ -34,3 +34,42 @@ nav > ul > li > a {
   text-decoration: none;
   color: #4D4D4D;
 }
+
+/* bodyContent/mainContent */
+
+main {
+  background-image: url("../public/mountain.png");
+  color: #fff;
+  background-size: cover;
+  display: flex;
+  flex-direction: column; 
+  justify-content: center;
+  padding-right: 2rem;
+  padding-left: 2rem;
+}
+
+main > h1 {
+  margin-top: 4rem;
+}
+
+.line1 {
+  margin-bottom: 0;
+
+}
+.line2 {
+  margin-top: 0;
+  margin-bottom: 4rem;
+  
+}
+ 
+main > div {
+  background-color: #FF8C38;
+  color: #fff;
+  border-radius: 5px;
+  border-style: none;
+  text-align: center;
+  padding-top: 0.5rem;
+  padding-bottom: 0.5rem;
+  margin-bottom: 4rem;
+  
+}
