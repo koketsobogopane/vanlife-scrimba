@@ -38,7 +38,7 @@ nav > ul > li > a {
 /* bodyContent/mainContent */
 
 main {
-  background-image: url("../public/mountain.png");
+  background-image: url("/mountain.png");
   color: #fff;
   background-size: cover;
   display: flex;
