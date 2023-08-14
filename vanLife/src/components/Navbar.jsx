@@ -12,7 +12,7 @@ const Navbar = () => {
 
         >#VANLIFE</Link></h2>
         <ul >
-          <li><Link to="/Vans">Vans</Link></li>
+          <li><Link to="/vans">Vans</Link></li>
           <li><Link to="/about">About</Link></li>
         </ul>
       </nav>
