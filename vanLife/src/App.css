@@ -1,5 +1,5 @@
 * {
-  
+  margin: 0;
   box-sizing: border-box;
 }
 
@@ -135,4 +135,29 @@ footer {
 .about_box_line2 {
   margin-top: .5px;
   margin-bottom: 2rem
+}
+
+
+/* VanList */
+
+.VanGrid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 1rem;
+  margin: 1rem;
+}
+
+.card {
+  width: 14rem;
+}
+
+.cardImage {
+  width: 14rem;
+  border-radius: 5px;
+}
+
+.cardDetails {
+  display: flex;
+  justify-content: space-between;
+  margin-top: .8rem
 }
