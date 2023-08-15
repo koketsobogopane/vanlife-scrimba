@@ -4,7 +4,7 @@ import Navbar from './components/Navbar'
 import BodyContent from './components/BodyContent'
 import About from './components/About'
 import Footer from "./components/Footer"
-import VanDetails from "./components/Footer"
+import VanDetails from "./components/VanDetails"
 import VansList from './components/VansLIst'
 import { Route, Routes } from "react-router-dom"
 

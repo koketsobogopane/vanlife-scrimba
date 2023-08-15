@@ -1,5 +1,6 @@
 import { useEffect, useState } from "react"
 import PropTypes from "prop-types"
+import { Link } from "react-router-dom"
 
 
 const VansList = () => {
@@ -36,14 +37,19 @@ const VansList = () => {
             <div className="VanGrid">
             {vansData.map(
                 van=>(
-                    <Card 
+                    <Link 
+                    to={`/vans/${van.id}`}
+                    key={van.id}
+                    >
+                        <Card 
                     imageUrl={van.imageUrl}
                     name={van.name}
                     price={van.price}
-                    key={van.id}
                     description={van.description}
                     type={van.type}
                     />
+                    </Link>
+                    
                 )
             )}
             </div>
@@ -88,7 +94,7 @@ const Card = ({ imageUrl, name, price, type }) => {
                 <h4>{name}</h4>
             <div style={badge} className="badge">{type.charAt(0).toUpperCase() + type.slice(1)}</div>
             </div>    
-            <p><h5>${price}</h5>/day</p>
+            <span><h5>${price}</h5>/day</span>
             </div>
             
             

@@ -141,10 +141,16 @@ footer {
 /* VanList */
 
 .VanGrid {
-  display: grid;
-  grid-template-columns: 1fr 1fr;
+  display: flex;
+  flex-wrap: wrap;
   gap: 1rem;
   margin: 1rem;
+  justify-content: center;
+}
+
+.VanGrid > a {
+  text-decoration: none;
+  color: #161616;
 }
 
 .card {
@@ -160,4 +166,57 @@ footer {
   display: flex;
   justify-content: space-between;
   margin-top: .8rem
+}
+
+/* VanDetails */
+
+.vanDetails {
+  display: flex;
+  flex-direction: column;
+}
+
+.vanDetails_container {
+  padding: 5%;
+}
+
+.vanDetails_img {
+  border-radius: 5px;
+  margin-block: 47px;
+}
+
+.vanDetails_name {
+  margin-top: 1rem;
+
+}
+
+.vanDetails_price {
+  display: flex;
+  margin-top: 1rem;
+}
+
+.vanDetails_description {
+  margin-top: 1rem;
+}
+
+.vanDetails_button {
+  margin-top: 1.5rem;
+  background-color: #FF8C38;
+  color:#fff;
+  border: none;
+  border-radius: 5px;
+  text-align: center;
+  padding: 1rem;
+  font-size: 1.2rem ;
+  font-weight: 700;
+  cursor: pointer;
+}
+
+.vanDetails_back {
+  text-decoration: none;
+  color: black;
+}
+
+.vanDetails_back:hover {
+  text-decoration: underline;
+  color: black;
 }
